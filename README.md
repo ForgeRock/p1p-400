@@ -21,17 +21,17 @@ The links in this document are to the product documentation and will assist in c
 
 The key documents for integrating PingAcess with PingOne Protect are listed below in the order that they should be used for the initial configuration of PingAccess:
 
-1. Add a [PingFederate connection](https://docs.pingidentity.com/r/en-us/pingone/p1\_c\_create\_connection\_pf) used by PingAccess:  
+1. Add a [PingFederate connection](https://docs.pingidentity.com/pingone/integrations/p1_create_connection_pf.html) used by PingAccess:  
    * PingAccess uses the PingFederate connection to connect to the PingOne services for integration with PingOne Protect.  
-2. Define a [PingOne Protect policy](https://docs.pingidentity.com/r/en-us/pingone/pingone\_p1risk\_risk\_policies) based on the requirements of your application in PingAccess:  
-   * The selected predictors are based on the decision in the [PingAccess policy](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_adding\_a\_risk\_policy) to collect or not collect device information using the [PingOne Protect Signals SDK](https://docs.pingidentity.com/r/en-us/pingone/pingone\_c\_risk\_signals\_sdk).  
-   * If using the SDK, you can create a [staging policy](https://docs.pingidentity.com/r/en-us/pingone/pingone\_protect\_evaluating\_staging\_policy) to evaluate the impact of not having the predictors that require the SDK.  
-3. Connect [PingAccess to PingOne](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_adding\_a\_p1\_connection) using the PingOne connection [credentials](https://docs.pingidentity.com/r/en-us/pingone/p1\_add\_credentials).  
-4. Define the [rules](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_rules) and [authentication challenge policies](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_authentication) to be used in your PingAccess risk policy.  
-   * Any instructions sent to the token provider; for example, authentication requirements or prompt parameters should be handled by the token provider. In the case of PingFederate, this may require adjustments to the [authentication](https://docs.pingidentity.com/r/en-us/pingfederate-121/pingfed-authenticationpolicies) policies.  
-5. Define your PingAccess [risk policy](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_adding\_a\_risk\_policy) or policies:  
+2. Define a [PingOne Protect policy](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_risk_policies.html) based on the requirements of your application in PingAccess:  
+   * The selected predictors are based on the decision in the [PingAccess policy](https://docs.pingidentity.com/pingaccess/latest/pingaccess_user_interface_reference_guide/pa_risk_policies_overview.html#risk-policy-field-descriptions) to collect or not collect device information using the [PingOne Protect Signals SDK](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_signals_sdk.html).  
+   * If using the SDK, you can create a [staging policy](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_creating_managing_staging_policies.html) to evaluate the impact of not having the predictors that require the SDK.  
+3. Connect [PingAccess to PingOne](https://docs.pingidentity.com/pingaccess/latest/pingaccess_user_interface_reference_guide/pa_risk_policies_overview.html) using the PingOne connection [credentials](https://docs.pingidentity.com/pingone/integrations/p1_create_connection_pf.html).  
+4. Define the [rules](https://docs.pingidentity.com/pingaccess/latest/pingaccess_user_interface_reference_guide/pa_rules.html) and [authentication challenge policies](https://docs.pingidentity.com/pingaccess/latest/pingaccess_user_interface_reference_guide/pa_authentication.html) to be used in your PingAccess risk policy.  
+   * Any instructions sent to the token provider; for example, authentication requirements or prompt parameters should be handled by the token provider. In the case of PingFederate, this may require adjustments to the [authentication](https://docs.pingidentity.com/pingfederate/latest/administrators_reference_guide/pf_authentication_policies.html) policies.  
+5. Define your PingAccess [risk policy](https://docs.pingidentity.com/pingaccess/latest/pingaccess_user_interface_reference_guide/pa_risk_policies_overview.html) or policies:  
    * During a learning period, you may simply allow requests through and then apply the rules and challenge policies after the learning period.  
-6. Link risk policy to the [application(s) and resources](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_applications\_operations) of protected web applications.
+6. Link risk policy to the [application(s) and resources](https://docs.pingidentity.com/pingaccess/latest/pingaccess_user_interface_reference_guide/pa_applications_operations.html) of protected web applications.
 
 ## Configuring PingFederate Integration With PingOne Protect
 
