@@ -2,18 +2,20 @@
 
 The links in this document are to the product documentation and will assist in configuring the integrations in your deployment. The following links are to major sections of the documentation related to PingOne Protect:
 
-* [Threat Protection using PingOne Protect](https://docs.pingidentity.com/r/en-us/pingone/pingone\_p1risk\_start)  
-  * [Protect dashboard](https://docs.pingidentity.com/r/en-us/pingone/pingone\_p1risk\_dashboard)  
-  * [Risk evaluations](https://docs.pingidentity.com/r/en-us/pingone/pingone\_protect\_risk\_evaluations)  
-  * [Predictors](https://docs.pingidentity.com/r/en-us/pingone/pingone\_p1risk\_add\_predictors)  
-    * [Adding custom predictors](https://docs.pingidentity.com/r/en-us/pingone/p1\_t\_add\_custom\_predictors)  
-    * [Adding composite predictors](https://docs.pingidentity.com/r/en-us/pingone/p1risk\_add\_composite\_predictors)  
-  * [Risk policies](https://docs.pingidentity.com/r/en-us/pingone/pingone\_p1risk\_risk\_policies)  
-  * [Protect related alerts](https://docs.pingidentity.com/r/en-us/pingone/p1\_add\_alert)  
-* [PingOne Protect Integration Kit](https://docs.pingidentity.com/r/en-us/pingfederate-pingone-protect-ik/pingfederate\_pingone\_protect\_ik)  
-* [DaVinci PingOne Protect Connector](https://docs.pingidentity.com/r/en-us/davinci-pingone-risk-connector/davinci\_pingone\_protect\_connector)  
-* [PingAccess integration with PingOne Protect](https://docs.pingidentity.com/r/en-us/pingaccess-80/pa\_p1risk\_policy\_eval\_integration)  
-* [PingFederate integration with PingOne Protect](https://docs.pingidentity.com/r/en-us/pingfederate-121/pf\_additional\_integr)
+* [Threat Protection using PingOne Protect](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_overview.html)  
+  * [Protect dashboard](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_dashboard.html)  
+  * [Risk evaluations](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_risk_evaluations.html)  
+  * [Predictors](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_risk_predictors.html)  
+    * [Adding custom predictors](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_adding_custom_predictors.html)  
+    * [Adding composite predictors](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_adding_composite_predictors.html)  
+  * [Risk policies](https://docs.pingidentity.com/pingone/threat_protection_using_pingone_protect/p1_protect_risk_policies.html)  
+  * [Protect related alerts](https://docs.pingidentity.com/pingone/monitoring/p1_alerts.html)
+    * Suspicious Traffic
+    * Data Quality Issue  
+* [PingOne Protect Integration Kit](https://docs.pingidentity.com/integrations/pingone/pingone_protect_integration_kit/pf_p1_protect_ik.html)  
+* [DaVinci PingOne Protect Connector](https://docs.pingidentity.com/connectors/p1_protect_connector.html)  
+* [PingAccess integration with PingOne Protect](https://docs.pingidentity.com/pingaccess/latest/agents_and_integrations/pa_p1risk_policy_eval_integration.html)  
+* [PingFederate integration with PingOne Protect](https://docs.pingidentity.com/pingfederate/latest/introduction_to_pingfederate/pf_additional_integr.html)
 
 ## Configuring PingAccess Integration With PingOne Protect
 
