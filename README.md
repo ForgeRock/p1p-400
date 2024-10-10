@@ -17,6 +17,8 @@ The links in this document are to the product documentation and will assist in c
 * [PingAccess integration with PingOne Protect](https://docs.pingidentity.com/pingaccess/latest/agents_and_integrations/pa_p1risk_policy_eval_integration.html)  
 * [PingFederate integration with PingOne Protect](https://docs.pingidentity.com/pingfederate/latest/introduction_to_pingfederate/pf_additional_integr.html)
 
+A guide for [testing integrations](https://support.pingidentity.com/s/article/PingOne-Protect-Integration-Testing) is available to customers, access to the customer portal is required.
+
 ## Configuring PingAccess Integration With PingOne Protect
 
 The key documents for integrating PingAcess with PingOne Protect are listed below in the order that they should be used for the initial configuration of PingAccess:
